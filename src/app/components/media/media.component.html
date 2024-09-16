@@ -1,0 +1,23 @@
+<div class="container">
+    <h2>Média Final</h2>
+    <div class="form-group">
+      <label>AC1:</label>
+      <input type="number" [(ngModel)]="ac1" class="form-control">
+    </div>
+    <div class="form-group">
+      <label>AC2:</label>
+      <input type="number" [(ngModel)]="ac2" class="form-control">
+    </div>
+    <div class="form-group">
+      <label>AG:</label>
+      <input type="number" [(ngModel)]="ag" class="form-control">
+    </div>
+    <div class="form-group">
+      <label>AF:</label>
+      <input type="number" [(ngModel)]="af" class="form-control">
+    </div>
+    <button (click)="calcularMedia()" class="btn btn-primary">Calcular Média</button>
+    <p>Média Final: {{ media }}</p>
+    <p>{{ status }}</p>
+  </div>
+  
