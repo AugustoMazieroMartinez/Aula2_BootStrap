@@ -12,6 +12,7 @@ import { ApoliceSeguroComponent } from './components/apolice/apolice.component';
 import { CadastroClienteComponent } from './components/cadastro/cadastro.component';
 import { MediaAlunoComponent } from './components/media/media.component';
 import { CalculadoraComponent } from './components/calculadora/calculadora.component';
+import { TarefasComponent } from './components/tarefas/tarefas.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CalculadoraComponent } from './components/calculadora/calculadora.compo
     ApoliceSeguroComponent,
     CadastroClienteComponent,
     MediaAlunoComponent,
-    CalculadoraComponent
+    CalculadoraComponent,
+    TarefasComponent
   ],
   imports: [
     BrowserModule,
