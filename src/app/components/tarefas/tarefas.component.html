@@ -3,7 +3,8 @@
     
     <ul class="list-group">
       <li *ngFor="let tarefa of tarefas" 
-          class="list-group-item d-flex justify-content-between align-items-center">
+          class="list-group-item d-flex justify-content-between align-items-center"
+          [ngStyle]="{'text-decoration': tarefa.concluida ? 'line-through' : 'none'}">
         
         <span>{{ tarefa.descricao }}</span>
         
